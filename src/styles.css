@@ -1,0 +1,32 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.card h2 {
+  margin-top: 0;
+}
+.card.light {
+  background: #fff;
+  color: #222;
+}
+.card.dark {
+  background: #222;
+  color: #eee;
+}
+input {
+  padding: 0.4rem;
+  width: 100%;
+  box-sizing: border-box;
+}
